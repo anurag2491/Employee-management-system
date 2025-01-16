@@ -8,6 +8,32 @@ The project is divided into two main folders:
 springboot-backend: Contains the Spring Boot application that provides RESTful APIs for managing employee data.
 react-frontend: Contains the React application that consumes the APIs and provides a user interface for interacting with the employee data.
 
+Technologies Used
+
+Backend (Spring Boot Application)
+Spring Boot - Framework for building Java-based RESTful services
+Spring Data JPA - ORM framework for database interactions
+MySQL - Relational database for storing employee data
+Spring Boot DevTools - Provides auto-restart and live reload
+Lombok - Reduces boilerplate code using annotations
+Maven - Dependency management and build automation
+
+Frontend (React Application)
+
+React - JavaScript library for building UI components
+React Router - Handles client-side navigation
+Axios - HTTP client for making API calls
+Bootstrap - CSS framework for responsive design
+React Hooks - Manages component state and side effects
+
+Features
+
+Employee Management: Add, view, update, and delete employees
+RESTful API: Backend exposes endpoints for CRUD operations
+Database Integration: MySQL used for persistent storage
+Responsive UI: Frontend designed using Bootstrap
+Error Handling: Proper validations and error messages
+
 Prerequisites
 
 Before running the applications, ensure you have the following installed:
@@ -29,7 +55,6 @@ mvn spring-boot:run
 The backend server will start at http://localhost:8080.
 
 Frontend (React Application)
-
 Install Dependencies:
 Navigate to the react-frontend directory.
 Install the required npm packages:
@@ -38,5 +63,3 @@ Run the Application:
 Start the React application:
 npm start
 The frontend application will run at http://localhost:3000.
-
-
