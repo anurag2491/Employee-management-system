@@ -1,3 +1,6 @@
+https://github.com/user-attachments/assets/f71da52d-07a7-4877-8809-d700de46d7a3
+
+
 Employee Management System
 
 This project demonstrates how to develop a full-stack CRUD (Create, Read, Update, Delete) application using React for the frontend and Spring Boot for the 
